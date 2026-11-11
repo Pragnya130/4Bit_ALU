@@ -1,18 +1,10 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Ignore Icarus Verilog compiled simulation runtime executables
+*.vvp
 
-# Other files and folders
-.settings/
+# Ignore structural Value Change Dump waveform traces
+*.vcd
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Ignore common text editor cache folders
+.vscode/
+.idea/
+*.swp
